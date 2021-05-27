@@ -21,7 +21,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/license")
 public class CreatorLicenseController {
 
-
     /**
      * 获取服务器硬件信息
      * @return
