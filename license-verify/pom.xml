@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.sixj.license</groupId>
+    <artifactId>license-verify</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+
+    <properties>
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+        <java.version>1.8</java.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <!--自动配置-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+            <version>1.5.17.RELEASE</version>
+        </dependency>
+
+        <!--TrueLicense用于实现我们的证书管理-->
+        <dependency>
+            <groupId>de.schlichtherle.truelicense</groupId>
+            <artifactId>truelicense-core</artifactId>
+            <version>1.33</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.16</version>
+        </dependency>
+
+        <!-- hutool工具包 -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.2.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.oshi</groupId>
+            <artifactId>oshi-core</artifactId>
+            <version>5.6.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId> org.aspectj</groupId >
+            <artifactId> aspectjweaver</artifactId >
+            <version> 1.8.7</version >
+        </dependency>
+
+
+    </dependencies>
+
+</project>
