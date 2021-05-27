@@ -83,13 +83,13 @@
    >
    > ```json
    > {
-   >     "ipAddress": [ // 授权的ip列表
+   >     "ipAddress": [ //授权的ip列表
    >         "172.17.0.8"
    >     ],
-   >     "macAddress": [ // 授权的mac地址列表
+   >     "macAddress": [ //授权的mac地址列表
    >         "52-54-00-74-0B-D9"
    >     ],
-   >     "cpuSerial": "55 06 05 00 FF FB 8B 0F", // cpu序列号
+   >     "cpuSerial": "55 06 05 00 FF FB 8B 0F", //cpu序列号
    >     "mainBoardSerial": "afb14aac-eccb-4a37-9c31-e7951ce73e0d"//主板序列号
    > }
    > ```
@@ -105,23 +105,23 @@
    > ```json
    > {
    >     
-   >     "expiryTime":"2021-05-25 19:07:59", // 生效时间
-   >     "issuedTime":"2021-04-25 19:07:00", // 失效时间
+   >     "expiryTime":"2021-05-25 19:07:59", //生效时间
+   >     "issuedTime":"2021-04-25 19:07:00", //失效时间
    >     "keyPass":"12345678A", //密钥的密码
    >     "privateAlias":"SYSHLANG",
-   >     "licensePath":"/Users/sixj/Desktop/license/license.lic", // 证书生成地址
+   >     "licensePath":"/Users/sixj/Desktop/license/license.lic", //证书生成地址
    >     "privateKeysStorePath":"/Users/sixj/Desktop/license/privateKeys.keystore",// 密钥文件地址
    >     "storePass":"12345678A", //密钥库的密码
    >     "subject":"pushi-kn-graph",
-   >     "licenseCheckModel":{ // 授权验证信息
+   >     "licenseCheckModel":{ //授权验证信息
    >         "cpuSerial":"47A8E193-23D4-5B93-92AB-4A96FBC0346F",//cpu序列号
-   >         "ipAddress":[ // ip
+   >         "ipAddress":[ //ip
    >             "192.168.174.107"
    >         ],
-   >         "macAddress":[ // mac地址
+   >         "macAddress":[ //mac地址
    >             "F8-FF-C2-6A-3E-73"
    >         ],
-   >         "mainBoardSerial":"C02C31HZMD6P"// 主板序列号
+   >         "mainBoardSerial":"C02C31HZMD6P"//主板序列号
    >     }
    > }
    > ```
