@@ -22,13 +22,6 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!--TrueLicense用于实现我们的证书管理-->
-        <dependency>
-            <groupId>de.schlichtherle.truelicense</groupId>
-            <artifactId>truelicense-core</artifactId>
-            <version>1.33</version>
-        </dependency>
-
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
